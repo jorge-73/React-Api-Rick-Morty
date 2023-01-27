@@ -1,0 +1,10 @@
+.characters{
+    user-select: none;
+    background-color: rgba(0, 0, 0, .3);
+    transition: all 1s;
+    height: 95%;
+}
+
+.characters:hover{
+    transform: scale(1.1);
+}
