@@ -1,10 +1,18 @@
-.characters{
-    user-select: none;
-    background-color: rgba(0, 0, 0, .3);
-    transition: all 1s;
-    height: 95%;
+.characters {
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 1s;
+  height: 95%;
+  cursor: pointer;
 }
 
-.characters:hover{
-    transform: scale(1.1);
+.characters:hover {
+  transform: scale(1.1);
+}
+
+.characters2 {
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 1s;
+  height: 95%;
 }

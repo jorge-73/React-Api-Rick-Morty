@@ -8,10 +8,10 @@ export const NavPage = ({ page, setPage }) => {
   };
   return (
     <div className="d-flex justify-content-between align-items-center">
-      <button onClick={prevPage} className="btn btn-secondary btn-sm p-2 fw-bold">
+      <button onClick={prevPage} className="btn btn-outline-success text-dark btn-sm p-2 fw-bold">
         Page: {page}
       </button>
-      <button onClick={nextPage} className="btn btn-secondary btn-sm p-2 fw-bold">
+      <button onClick={nextPage} className="btn btn-outline-success text-dark btn-sm p-2 fw-bold">
         Page: {page + 1}
       </button>
     </div>
